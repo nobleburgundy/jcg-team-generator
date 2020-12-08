@@ -3,7 +3,22 @@
     height: 95%;
 }
 
+.card-header {}
+
 .card-body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 0.9rem;
+}
+
+.intern .card-header {
+    background-color: #06d6a0;
+}
+
+.engineer .card-header {
+    background-color: #495867;
+    color: #fff;
+}
+
+.manager .card-header {
+    background-color: #118ab2;
 }
