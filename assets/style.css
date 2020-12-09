@@ -7,13 +7,23 @@
 .jumbotron h1 {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 5rem;
-    font-weight: 900;
+    font-weight: 100;
     letter-spacing: 0.5rem;
 }
 
-.card-header h2,
-h3 {
+.card-header {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.card-header h2 {
     font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1rem;
+    margin: 0;
+    text-transform: uppercase;
 }
 
 .employee-card {
@@ -41,4 +51,5 @@ h3 {
 
 .card-header h2 {
     font-weight: 200;
+    margin: 0;
 }

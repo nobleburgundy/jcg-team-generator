@@ -5,10 +5,14 @@
         </div>
         <div class="card-body">
             <ul class="list-group">
-                <li class="list-group-item">Role: {{ role }}</li>
-                <li class="list-group-item">ID: {{ id }}</li>
-                <li class="list-group-item">Email: <a href="mailto:{{ email }}">{{ email }}</a></li>
-                <li class="list-group-item">Office number: {{ officeNumber }}</li>
+                <li class="list-group-item">
+                    <h3>{{ role }}</h3>
+                </li>
+                <li class="list-group-item"><b>ID</b> {{ id }}</li>
+                <li class="list-group-item"><i class="far fa-envelope mr-2"></i><a
+                        href="mailto:{{ email }}">{{ email }}</a>
+                </li>
+                <li class="list-group-item"><i class="fas fa-phone mr-2"></i>{{ officeNumber }}</li>
             </ul>
         </div>
     </div>
