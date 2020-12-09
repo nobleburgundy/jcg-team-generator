@@ -1,9 +1,25 @@
+.jumbotron {
+    background-color: #00a6ed;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 5rem;
+    font-weight: 900;
+    letter-spacing: 0.5rem;
+}
+
+.card-header h2,
+h3 {
+    font-size: 1.5rem;
+}
+
 .employee-card {
     margin-bottom: 1rem;
     height: 95%;
 }
-
-.card-header {}
 
 .card-body {
     font-family: 'Courier New', Courier, monospace;
@@ -15,10 +31,14 @@
 }
 
 .engineer .card-header {
-    background-color: #495867;
-    color: #fff;
+    background-color: #a9def9;
 }
 
 .manager .card-header {
-    background-color: #118ab2;
+    background-color: #560bad;
+    color: #fff;
+}
+
+.card-header h2 {
+    font-weight: 200;
 }
