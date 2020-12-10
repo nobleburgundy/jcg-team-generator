@@ -6,7 +6,23 @@ test("Can set school via constructor", () => {
   expect(e.school).toBe(testValue);
 });
 
-test("getRole() should return \"Intern\"", () => {
+test("Should throw error if 'school' passed as non-string", () => {
+  const school = 123;
+  const cb = () => new Intern("Test", 1, "t@t.com", school);
+  const error = new Error("Expected parameter 'school' to be a non-empty string.");
+
+  expect(cb).toThrowError(error);
+});
+
+test("Should throw error if 'school' passed as empty string", () => {
+  const school = "";
+  const cb = () => new Intern("Test", 1, "t@t.com", school);
+  const error = new Error("Expected parameter 'school' to be a non-empty string.");
+
+  expect(cb).toThrowError(error);
+});
+
+test('getRole() should return "Intern"', () => {
   const testValue = "Intern";
   const e = new Intern("Foo", 1, "test@test.com", "UCLA");
   expect(e.getRole()).toBe(testValue);
