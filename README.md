@@ -28,6 +28,10 @@ Once you have cloned the repo, run the following from the root of the project...
 1. `node app.js`
 2. Follow the prompts to add employee profiles to your team. When you've added the last employee, the html file will be writen to the `{project root}\output\team.html` file.
 
+### Demo
+
+A link to the demo video can be found [here](https://drive.google.com/file/d/1QwfZP3LBmE0h43CfmmIIsVW0ofoGZOdI/view?usp=sharing).
+
 ## Credits
 
 The `Inquirer` package and it's documentation was used extensively for this project.
