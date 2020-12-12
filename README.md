@@ -30,7 +30,9 @@ Once you have cloned the repo, run the following from the root of the project...
 
 ### Demo
 
-A link to the demo video can be found [here](https://drive.google.com/file/d/1QwfZP3LBmE0h43CfmmIIsVW0ofoGZOdI/view?usp=sharing).
+![Demo](./assets/demo.gif)
+
+A link to the full demo video can be found [here](https://drive.google.com/file/d/1QwfZP3LBmE0h43CfmmIIsVW0ofoGZOdI/view?usp=sharing).
 
 ## Credits
 
