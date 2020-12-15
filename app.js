@@ -50,18 +50,30 @@ const questions = [
     name: "github",
     message: "What is this engineers GitHub username?",
     when: (answers) => answers.role === "Engineer",
+    validate: (value) => {
+      if (value) return true;
+      return "Github username is required.";
+    },
   },
   {
     type: "input",
     name: "officeNumber",
     message: "What is this manager's office phone number?",
     when: (answers) => answers.role === "Manager",
+    validate: (value) => {
+      if (value) return true;
+      return "Phone # is required.";
+    },
   },
   {
     type: "input",
     name: "school",
     message: "What school is this intern attending?",
     when: (answers) => answers.role === "Intern",
+    validate: (value) => {
+      if (value) return true;
+      return "School is required.";
+    },
   },
   {
     type: "confirm",
